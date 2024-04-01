@@ -5,14 +5,6 @@ export default function VideoPlayer() {
 
   console.log(ref.current);
 
-  // const togglePlayback = () => {
-  //   if (videoRef.current.paused) {
-  //     videoRef.current.play();
-  //   } else {
-  //     videoRef.current.pause();
-  //   }
-  // };
-
   const [videoStatus, setVideoStatus] = useState(false);
 
   const togglePlayback = (e) => {
